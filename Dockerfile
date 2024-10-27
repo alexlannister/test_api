@@ -35,4 +35,4 @@ COPY . .
 
 # Command to run the FastAPI app
 #CMD ["hypercorn", "main:app", "--bind", "::"][::]:$PORT\
-CMD ["hypercorn", "main:app", "--bind", "::"]
+CMD ["hypercorn", "main:app", "--bind", "::", "--port", "3000"]
