@@ -34,4 +34,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Command to run the FastAPI app
-CMD ["hypercorn", "main:app"]
+CMD ["hypercorn", "main:app", "--bind", "::"]
