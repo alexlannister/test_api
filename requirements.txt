@@ -1,6 +1,5 @@
 fastapi
 hypercorn
-
 pydantic
 starlette
 pyppeteer
